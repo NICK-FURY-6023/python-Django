@@ -1,0 +1,14 @@
+asgiref<4,>=3.5.2
+sqlparse>=0.2.2
+
+[:python_version < "3.9"]
+backports.zoneinfo
+
+[:sys_platform == "win32"]
+tzdata
+
+[argon2]
+argon2-cffi>=19.1.0
+
+[bcrypt]
+bcrypt
